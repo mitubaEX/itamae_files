@@ -23,3 +23,4 @@ So run after.sh after itamae task.
 ## Dependencies
 
 - [itamae](https://github.com/itamae-kitchen/itamae)
+- [homebrew](https://brew.sh/index_ja.html)
