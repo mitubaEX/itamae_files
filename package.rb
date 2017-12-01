@@ -1,8 +1,12 @@
 # command
-["peco", "fish", "mysql", "tree", "vim", "wget"].each do |pkg|
+["peco", "fish", "mysql", "tree", "wget"].each do |pkg|
   package pkg do
     action :install
   end
+end
+
+package "vim" do 
+  options "--enablerepo=epel"
 end
 
 # proggraming language
