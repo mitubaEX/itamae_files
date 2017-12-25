@@ -1,11 +1,11 @@
 # command
-["peco", "fish", "mysql", "tree", "wget"].each do |pkg|
+["pyenv", "peco", "fish", "mysql", "tree", "wget"].each do |pkg|
   package pkg do
     action :install
   end
 end
 
-package "vim" do 
+package "vim" do
   options "--enablerepo=epel"
 end
 
@@ -31,9 +31,9 @@ end
 end
 
 # chat
-# ["caskroom/cask/skype", "caskroom/cask/slack"].each do |pkg|
-#   package pkg do
-#     action :install
-#   end
-# end
+["caskroom/cask/skype", "caskroom/cask/slack", "caskroom/cask/hyperswitch"].each do |pkg|
+  package pkg do
+    action :install
+  end
+end
 
