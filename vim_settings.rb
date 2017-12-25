@@ -4,13 +4,13 @@ execute "add vim dein" do
 end
 
 execute "install vim dein" do
-  command "sh ./installer.sh ~/.vim/. ; rm ./installer.sh"
-  not_if "test -e ~/.vim/repos"
+  command "sh ./installer.sh ~/.cash/dein/. ; rm ./installer.sh"
+  not_if "test -e ~/.cash/dein/repos"
 end
 
 execute "wget .vimrc" do
-  command "wget https://raw.githubusercontent.com/mitubaEX/dotfiles/master/.vimrc -P ~/."
-  not_if "test -e ~/.vimrc"
+  command "wget https://raw.githubusercontent.com/mitubaEX/dotfiles/master/init.sh -P ~/.config/nvim/."
+  not_if "test -e ~/.config/nvim/init.sh"
 end
 
 execute "wget dein.toml" do

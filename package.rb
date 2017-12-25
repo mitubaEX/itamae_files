@@ -1,5 +1,5 @@
 # command
-["pyenv", "peco", "fish", "mysql", "tree", "wget"].each do |pkg|
+["pyenv", "peco", "fish", "zsh", "neovim", "mysql", "tree", "wget"].each do |pkg|
   package pkg do
     action :install
   end
