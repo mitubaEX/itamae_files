@@ -17,11 +17,11 @@ end
 end
 
 # Docker
-["docker", "caskroom/cask/docker"].each do |pkg|
-  package pkg do
-    action :install
-  end
-end
+# ["docker", "caskroom/cask/docker"].each do |pkg|
+#   package pkg do
+#     action :install
+#   end
+# end
 
 # Browser
 ["caskroom/cask/google-chrome", "caskroom/cask/firefox"].each do |pkg|
