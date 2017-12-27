@@ -10,7 +10,7 @@ package "vim" do
 end
 
 # proggraming language
-["caskroom/cask/java", "gradle", "go", "glide", "kotlin", "rust", "sbt", "scala"].each do |pkg|
+["caskroom/versions/java8", "gradle", "go", "glide", "kotlin", "rust", "sbt", "scala"].each do |pkg|
   package pkg do
     action :install
   end
