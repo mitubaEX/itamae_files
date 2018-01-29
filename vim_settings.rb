@@ -9,7 +9,7 @@ execute "install vim dein" do
 end
 
 execute "wget .vimrc" do
-  command "wget https://raw.githubusercontent.com/mitubaEX/dotfiles/master/init.vim -P ~/.config/nvim/."
+  command "wget https://raw.githubusercontent.com/mitubaEX/dotfiles/master/init.vim -P ~/.config/nvim"
   not_if "test -e ~/.config/nvim/init.vim"
 end
 
