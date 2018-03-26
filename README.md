@@ -1,26 +1,46 @@
 # itamae_files_MITUBA
 
-This repository put mac structure of MITUBA.
+Mac structure of MITUBA by itamae.
 
 ## Usage
-- dry run
+
+1. setup zsh
 
 ```
-itamae local *.rb --dry-run
+chsh -s /bin/zsh
 ```
 
+2. install prezto
+- [prezto](https://github.com/sorin-ionescu/prezto)
 
-- run
 ```
-sudo itamae local *.rb
-sh ./after.sh
+git clone --recursive https://github.com/sorin-ionescu/prezto.git "${ZDOTDIR:-$HOME}/.zprezto"
 ```
 
-chsh command not working with itamae.
-So run after.sh after itamae task.
+3. install homebrew
+- [homebrew](https://brew.sh/index_ja.html)
 
+```
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+
+4. intall itamae
+- [itamae](https://github.com/itamae-kitchen/itamae)
+
+```
+sudo gem install itamae
+```
+
+5. run
+
+```
+sh setup.sh
+```
+
+complete.
 
 ## Dependencies
 
 - [itamae](https://github.com/itamae-kitchen/itamae)
 - [homebrew](https://brew.sh/index_ja.html)
+- [prezto](https://github.com/sorin-ionescu/prezto)
