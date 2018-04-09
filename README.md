@@ -36,6 +36,11 @@ Mac structure of MITUBA by itamae.
       ```
       sh setup.sh
       ```
+  6. add Solarized
+      ```
+      git clone https://github.com/tomislav/osx-terminal.app-colors-solarized solarized.git
+      ```
+      Please import to your terminal.
 
 complete.
 
@@ -44,3 +49,4 @@ complete.
 - [itamae](https://github.com/itamae-kitchen/itamae)
 - [homebrew](https://brew.sh/index_ja.html)
 - [prezto](https://github.com/sorin-ionescu/prezto)
+- [Solarized](https://github.com/tomislav/osx-terminal.app-colors-solarized)
