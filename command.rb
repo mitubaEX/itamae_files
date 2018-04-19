@@ -10,3 +10,8 @@ execute "wget .zpreztorc" do
   not_if 'test -e ~/.preztorc'
 end
 
+execute "wget .tmux.conf" do
+  command "wget https://raw.githubusercontent.com/mitubaEX/dotfiles/master/.tmux.conf -P ~/."
+  not_if 'test -e ~/.tmux.conf'
+end
+
