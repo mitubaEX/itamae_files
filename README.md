@@ -41,6 +41,15 @@ Mac structure of MITUBA by itamae.
       git clone https://github.com/tomislav/osx-terminal.app-colors-solarized solarized.git
       ```
       Please import to your terminal.
+  7. add gist-vim config
+      Create ~/.gist-vim and write following code.
+      ```
+      token XXX
+      ```
+      And execute following command.
+      ```
+      git config --global github.user <username>
+      ```
 
 complete.
 
