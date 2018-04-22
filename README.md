@@ -50,6 +50,7 @@ Mac structure of MITUBA by itamae.
       ```
       git config --global github.user <username>
       ```
+  8. change terminal fonts to ***[Source Code Pro for Powerline]***
 
 complete.
 
