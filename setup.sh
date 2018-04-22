@@ -24,3 +24,9 @@ rm -rf fonts
 # fonts
 brew tap caskroom/fonts
 brew cask install font-hack-nerd-font
+
+# tmux
+cd
+git clone https://github.com/gpakosz/.tmux.git
+ln -s -f .tmux/.tmux.conf
+# cp .tmux/.tmux.conf.local .
