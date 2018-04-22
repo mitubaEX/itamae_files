@@ -20,3 +20,7 @@ cd fonts
 # clean-up a bit
 cd ..
 rm -rf fonts
+
+# fonts
+brew tap caskroom/fonts
+brew cask install font-hack-nerd-font
