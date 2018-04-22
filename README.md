@@ -51,6 +51,12 @@ Mac structure of MITUBA by itamae.
       git config --global github.user <username>
       ```
   8. change terminal fonts to ***[Hack Regular Nerd Font Complete]***
+  9. upgrade zsh
+      ```
+      brew install zsh
+      sudo vim /etc/shells  # <- write `/usr/local/bin/zsh`
+      chsh -s /usr/local/bin/zsh
+      ```
 
 complete.
 
