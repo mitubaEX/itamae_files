@@ -1,5 +1,5 @@
 # command
-["python3", "pyenv", "fzf", "peco", "fish", "zsh", "neovim", "mysql", "tree", "wget", "tmux"].each do |pkg|
+["python3", "pyenv", "fzf", "peco", "fish", "zsh", "neovim", "mysql", "tree", "wget", "tmux", "caskroom/cask/iterm2"].each do |pkg|
   package pkg do
     action :install
   end
