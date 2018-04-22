@@ -54,9 +54,10 @@ Mac structure of MITUBA by itamae.
 
 complete.
 
-## Dependencies
+## Ref
 
 - [itamae](https://github.com/itamae-kitchen/itamae)
 - [homebrew](https://brew.sh/index_ja.html)
 - [prezto](https://github.com/sorin-ionescu/prezto)
 - [Solarized](https://github.com/tomislav/osx-terminal.app-colors-solarized)
+- [gpakosz/.tmux](https://github.com/gpakosz/.tmux)
