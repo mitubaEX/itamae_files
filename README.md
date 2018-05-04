@@ -57,6 +57,16 @@ Mac structure of MITUBA by itamae.
       sudo vim /etc/shells  # <- write `/usr/local/bin/zsh`
       chsh -s /usr/local/bin/zsh
       ```
+  9. install ghq
+      ```
+      go get github.com/motemen/ghq
+      ```
+      And write following config in $HOME/.gitconfig
+      ```
+      [ghq]
+          root = ~/.ghq/src
+      ```
+
 
 complete.
 
@@ -66,4 +76,5 @@ complete.
 - [homebrew](https://brew.sh/index_ja.html)
 - [prezto](https://github.com/sorin-ionescu/prezto)
 - [Solarized](https://github.com/tomislav/osx-terminal.app-colors-solarized)
+- [motemen/ghq](https://github.com/motemen/ghq)
 - [gpakosz/.tmux](https://github.com/gpakosz/.tmux)
