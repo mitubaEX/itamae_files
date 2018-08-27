@@ -33,3 +33,6 @@ ln -s -f .tmux/.tmux.conf
 
 # neovim-remote
 pip3 install neovim-remote
+
+# install gocode
+go get -u github.com/mdempsky/gocode
