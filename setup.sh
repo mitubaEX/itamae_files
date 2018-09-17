@@ -36,3 +36,6 @@ pip3 install neovim-remote
 
 # install gocode
 go get -u github.com/mdempsky/gocode
+
+# haskell
+stack setup
