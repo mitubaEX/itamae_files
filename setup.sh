@@ -44,3 +44,6 @@ stack setup
 # vim
 curl https://raw.githubusercontent.com/Shougo/dein.vim/master/bin/installer.sh > ./installer.sh
 sh ./installer.sh ~/.cache/dein/. ; rm ./installer.sh
+
+# arch linux
+git config --global credential.helper /usr/lib/git-core/git-credential-gnome-keyring
