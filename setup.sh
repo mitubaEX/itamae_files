@@ -1,6 +1,7 @@
-itamae local package.rb
+brew install python3 fzf zsh neovim tree wget tmux caskroom/cask/iterm2 ag exa reattach-to-user-namespace caskroom/versions/java8 gradle go kotlin rust sbt scala caskroom/cask/google-chrome caskroom/cask/slack caskroom/cask/hyperswitch caskroom/cask/amethyst
+# itamae local package.rb
 # itamae local command.rb vim_settings.rb
-itamae local command.rb
+# itamae local command.rb
 export PYTHONPATH=python3:pip3
 pip3 install neovim
 nvim -e -c "call dein#install()"
